@@ -1,0 +1,22 @@
+.tic-tac-board {
+  &-container {
+    display: grid;
+  }
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  & main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0;
+  }
+
+  & app-square {
+    border: 1px gray solid;
+    height: 200px;
+  }
+}

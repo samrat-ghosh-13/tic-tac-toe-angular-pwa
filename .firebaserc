@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "samrat-ghosh-firebase": {
+      "hosting": {
+        "tic-tac-toe-angular": [
+          "samrat-ghosh-firebase"
+        ]
+      }
+    }
+  }
+}
