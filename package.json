@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "use": "firebase use",
+    "deploy": "firebase deploy -m 'Deploying the Master Branch after latest code merge!'"
   },
   "author": {
     "name": "Samrat Ghosh",
