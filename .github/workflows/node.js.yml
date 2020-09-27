@@ -26,7 +26,7 @@ jobs:
       - run: npm ci
       - run: npm run build --if-present
       - name: Deploy to Firebase
-      uses: lowply/deploy-firebase@v0.0.3
-      env:
-        FIREBASE_TOKEN: 1//0g_Iz6YU2l3LiCgYIARAAGBASNgF-L9IrFLsJoAJEU6yKi1-5tioL_GMmriDvziizfmGWZ5-eMMZPnfJsDt98yxsmkWPoD80CGA
-        FIREBASE_PROJECT: samrat-ghosh-firebase
+        uses: lowply/deploy-firebase@v0.0.4
+        env:
+          FIREBASE_TOKEN: 1//0g_Iz6YU2l3LiCgYIARAAGBASNgF-L9IrFLsJoAJEU6yKi1-5tioL_GMmriDvziizfmGWZ5-eMMZPnfJsDt98yxsmkWPoD80CGA
+          FIREBASE_PROJECT: samrat-ghosh-firebase
