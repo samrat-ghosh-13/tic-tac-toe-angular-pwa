@@ -25,5 +25,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
       - run: npm run build --if-present
-      - run: firebase use
-      - run: firebase deploy -m 'Deploying the Master Branch after latest code merge!'
+      - name: Deploy to Firebase
+      uses: lowply/deploy-firebase@v0.0.3
+      env:
+        FIREBASE_TOKEN: 1//0g_Iz6YU2l3LiCgYIARAAGBASNgF-L9IrFLsJoAJEU6yKi1-5tioL_GMmriDvziizfmGWZ5-eMMZPnfJsDt98yxsmkWPoD80CGA
+        FIREBASE_PROJECT: samrat-ghosh-firebase
